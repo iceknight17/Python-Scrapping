@@ -11,7 +11,8 @@ import sys
 # Load the JSON file
 
 results = []
-url = "https://coinmarketcap.com/most-viewed-pages/?page=XXX"
+
+url = "https://coinmarketcap.com/new/?page=XXX"
 rootUrl = "https://coinmarketcap.com"
 
 pageFrom = int(sys.argv[1])
